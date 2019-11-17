@@ -4,13 +4,19 @@ O programa vai ser dividido em duas partes. A ideia é de que a pessoa dê check
 
 # Divisão:
 Thiago
+
 git init
+
 git clone
+
 git config --global user.name & email
 
 #########################################
 
 Gustavo
+
 git branch
+
 git checkout
+
 git merge

@@ -7,7 +7,9 @@ Thiago
 git init
 git clone
 git config --global user.name & email
+
 #########################################
+
 Gustavo
 git branch
 git checkout

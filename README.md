@@ -11,6 +11,10 @@ git clone
 
 git config --global user.name & email
 
+git add
+
+git commit
+
 #########################################
 
 Gustavo

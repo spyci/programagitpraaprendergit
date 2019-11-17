@@ -15,11 +15,14 @@ git add
 
 git commit
 
+
 #########################################
 
 Gustavo
 
 git branch
+
+git push
 
 git checkout
 

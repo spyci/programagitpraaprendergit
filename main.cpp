@@ -11,7 +11,7 @@ int main(int argc, char *argv[]){
 	mkdir[1] = "md";
 	string touch[2];
 	touch[0] = "touch tutorial.cpp";
-	touch[1] = "type nul > tutorial.cpp"
+	touch[1] = "type nul > tutorial.cpp";
 	int c=0;	
 	if(*argv[1]=='1') c=1;
 	string s;	
@@ -25,14 +25,13 @@ int main(int argc, char *argv[]){
 	system(dir.c_str());
 	system("cd tutgit");
 	cout<<"Para começar um novo diretorio git, digite <<git init>>"<<endl;
-	string s;
 	
 	do{
-		cin>>s
+		cin>>s;
 	} while(s!="git init");
 	
 	system(s.c_str());
-	system(clear[c]);
+	system(clear[c].c_str());
 	
 	cout<<"Eu vou criar um novo arquivo \"tutorial.cpp\" para comecar-mos a mecher com git"<<endl;
 	system(touch[c].c_str());

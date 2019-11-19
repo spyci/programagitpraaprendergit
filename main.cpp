@@ -33,7 +33,7 @@ R	<<"Se você chegou ate, voce já sabe usar git clone, porem git pode ser\n usa
 	system(s.c_str());
 	
 	system(clear[c].c_str());
-	cout<<"Eu vou criar um novo arquivo \"tutorial.cpp\" para comecar-mos a mecher com git"<<endl;
+	cout<<"Eu vou criar um novo arquivo \"tutorial.cpp\" para comecar-mos a mexer com git"<<endl;
 	touch[c]= append+touch[c];
 	system(touch[c].c_str());
 	

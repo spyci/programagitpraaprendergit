@@ -18,8 +18,7 @@ int main(int argc, char *argv[]){
 	//Verifica se git está instalado
 	cout<<clear[c]<<endl;
 	system(clear[c].c_str());
-        cout<<"Bem vind@ ao tutorial de git por Gustavo e Thiago V."<<endl
-	<<"Se você chegou ate, voce já sabe usar git clone, porem git pode ser\n usado tanto remotamente(em um servidor) quanto localmente"<<endl
+R	<<"Se você chegou ate, voce já sabe usar git clone, porem git pode ser\n usado tanto remotamente(em um servidor) quanto localmente"<<endl
 	<<"Vamos aprender a usar o git localmente agora\nVou criar um novo diretorio para comecar"<<endl;
 	string dir = mkdir[c] + " tutgit";
 	system(dir.c_str());

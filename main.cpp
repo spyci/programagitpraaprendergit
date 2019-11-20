@@ -35,7 +35,7 @@ int main(int argc, char *argv[]){
 	cout<<clear[c]<<endl;
 	system(clear[c].c_str());
 
-	cout << "Se você chegou ate, voce já sabe usar git clone, porem git pode ser\nusado tanto remotamente(em um servidor) quanto localmente" << endl;
+	cout << "Se você chegou ate aqui, voce já sabe usar git clone, porem git pode ser\nusado tanto remotamente, em um servido, quanto localmente" << endl;
 	cout << "Vamos aprender a usar o git localmente agora\nVou criar um novo diretorio chamado \"tutgit\" para comecar" << endl;
 
 	//Criando novo diretório "tutgit"
@@ -206,6 +206,41 @@ int main(int argc, char *argv[]){
 	system(s.c_str());
 	system(clear[c].c_str());
 
+	//Repositório Remoto
+	cout << "Após ser apresentado aos conceitos de branch, você irá poder colocar seu repositório em um servidor online" << endl;
+	cout << "Existem muitos serviços para isto, os principais são os sites www.github.com e www.gitlab.com" << endl;
+	cout << "Crie uma conta em algum destes sites, crie um repositório e copie o link para o repositório" << endl;
+	cout << "No github, por exemplo, o link tem o formato https://github.com/\"seu nome de usuário\"/\"nome do repositório\"" << endl << endl;
+
+	//git remote
+	cout << "Neste ponto, você irá adicionar nas configurações do seu repositório local, o link para o repositório remoto" << endl;
+	cout << "O proximo comando irá adicionar o repositório remoto com referencia chamada \"origin\"" << endl;
+	cout << "Com o comando <<git remote add origin \"link para seu repositório remoto\".git>>" << endl;
+	do{
+		cout<<">> ";
+		getline(cin,s);
+	} while(s!="git remote add origin"==string::npos);
+	s=append+s;
+	system(s.c_str());
+	system(clear[c].c_str());
+
+	//git push
+	cout << "Para colocar arquivos no repositório remoto você utiliza o comando push" << endl;
+	cout << "Ele sincroniza tudo que já foi commitado com o repositório remoto" << endl;
+	cout << "O comando a seguir irá subir para o repositório com referencia origin na branch master" << endl;
+	cout << "Quando for digitado, ele irá pedir o login e a senha" << endl;
+	cout << "Para isso, utilize o comando <<git push -u origin master>>" << endl;
+	cout << "Note que a flag \"-u\" é necessária apenas no primeiro push" << endl;
+	do{
+		cout<<">> ";
+		getline(cin,s);
+	} while(s!="git push -u origin master"==string::npos);
+	s=append+s;
+	system(s.c_str());
+	system(clear[c].c_str());
+
+	cout << "Assim está finalizada a segunda parte e o curso de git" << endl;
+	cout << "Caso tenha dúvidas, consulte a documentação do git, presente no link \"https://git-scm.com/book/en/v2\" ou contate-nos" << endl;
 
 	return 0;
 }

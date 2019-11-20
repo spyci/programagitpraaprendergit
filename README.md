@@ -1,4 +1,4 @@
-# programagitpraaprendergit
+# programa git pra aprender git
 
 Equipe rails
 
